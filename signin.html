@@ -43,6 +43,11 @@
         {
             localStorage.setItem('currentuser',JSON.stringify(user));
             alert("Login successfully!!!");
+            let option=confirm("Do you to start exam then click ok..");
+            if(option)
+        {
+            window.location.href="examapp.html"
+        }
             window.location.href="backupp.html";
         }
         else{
